@@ -13,7 +13,7 @@
             Console.WriteLine("Enter Your Age");
             String Age = Console.ReadLine();
             
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Your Name is {Fname}" +  Your Father Name is {LName}" and + Your Age is "{Age}");
         }
     }
 }
