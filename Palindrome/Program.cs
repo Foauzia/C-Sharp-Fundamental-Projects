@@ -40,7 +40,15 @@ class Program
 
     static void SuggestLetterForPalindrome(string text)
     {
+<<<<<<< HEAD
+<<<<<<< HEAD
         text = CleanText(text);
+=======
+=======
+>>>>>>> fce0ebdc9e3296f317b775b8b8205523028c5fea
+    
+        pal = pal.ToLower().Replace(" ", "").Replace(",", "").Replace(".", "");
+>>>>>>> fce0ebdc9e3296f317b775b8b8205523028c5fea
 
         for (int i = 0; i < text.Length; i++)
         {

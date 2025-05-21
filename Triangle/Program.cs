@@ -5,8 +5,6 @@ namespace Triangle
     {
         double Length;
         double Width;
-
-
         public void AcceptDetails()
         {
             Length = 4.5;
@@ -16,15 +14,22 @@ namespace Triangle
         {
             return  Length * Width;
         }
-
         public void Display()
         {
             Console.WriteLine("Length {0}", Length);
             Console.WriteLine("Width {0}", Width);
             Console.WriteLine("Area {0}", GetArea());
+<<<<<<< HEAD
+<<<<<<< HEAD
 
 
         }
+=======
+        }   
+>>>>>>> fce0ebdc9e3296f317b775b8b8205523028c5fea
+=======
+        }   
+>>>>>>> fce0ebdc9e3296f317b775b8b8205523028c5fea
     }
         class Executable
         {
@@ -34,7 +39,6 @@ namespace Triangle
             t.AcceptDetails();
             t.Display();
             Console.ReadLine();
-
         }
     }
     }
