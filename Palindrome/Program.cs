@@ -42,7 +42,7 @@ class Program
 
     static void SuggestLetterForPalindrome(string pal)
     {
-        // Check if removing one letter can make the string a palindrome
+    
         pal = pal.ToLower().Replace(" ", "").Replace(",", "").Replace(".", "");
 
         for (int p = 0; p < pal.Length; p++)
