@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
 
-            int firstNum = 10;
+           /* int firstNum = 10;
             int secondNum = 3;
 
             Console.WriteLine(firstNum / secondNum);
@@ -24,17 +24,12 @@
 
             int i = 0;
             Console.WriteLine(++i);
-            Console.WriteLine(i);
-
-           
+            Console.WriteLine(i);*/
 
 
+            int x, y, z;
 
-
-
-            //int x, y, z;
-
-            /* bool  value = true;
+             bool  value = true;
 
             bool isMale = false;
             Console.WriteLine(isMale);
@@ -78,8 +73,8 @@
             Console.WriteLine(float.MinValue);
             Console.WriteLine(float.MaxValue);
 
-
-            Console.WriteLine("Hello, World!");*/
+            Console.ReadLine();
+            Console.WriteLine("Hello, World!");
         }
     }
 }

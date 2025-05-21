@@ -1,60 +1,65 @@
 ﻿using System;
-using System.Text.RegularExpressions;
+
 class Program
 {
     static void Main()
     {
+        Console.WriteLine("Enter a number or string you want to check: ");
+        string input = Console.ReadLine();
 
-        Console.WriteLine("Enter a number or string you wanted to check? ");
-        string palindrome = Console.ReadLine();
-
-
-        if (IsPalindrome(palindrome))
+        if (IsPalindrome(input))
         {
-            Console.WriteLine($"{palindrome} is a Palindrome.");
+            Console.WriteLine($"{input} is a Palindrome.");
         }
         else
         {
-            Console.WriteLine($"{palindrome} is not a Palindrome.");
-            SuggestLetterForPalindrome(palindrome);
+            Console.WriteLine($"{input} is not a Palindrome.");
+            SuggestLetterForPalindrome(input);
         }
+
+        Console.WriteLine("Press any key to exit...");
+        Console.ReadKey();
     }
 
-    static bool IsPalindrome(string pal)
+    static bool IsPalindrome(string text)
     {
-
-        pal = pal.ToLower().Replace(" ", "").Replace(",", "").Replace(".", "");
-
+        text = CleanText(text);
         int left = 0;
-        int right = pal.Length - 1;
+        int right = text.Length - 1;
 
         while (left < right)
         {
-            if (pal[left] != pal[right])
-            {
+            if (text[left] != text[right])
                 return false;
-            }
+
             left++;
             right--;
         }
         return true;
     }
 
-    static void SuggestLetterForPalindrome(string pal)
+    static void SuggestLetterForPalindrome(string text)
     {
-        // Check if removing one letter can make the string a palindrome
-        pal = pal.ToLower().Replace(" ", "").Replace(",", "").Replace(".", "");
+        text = CleanText(text);
 
-        for (int p = 0; p < pal.Length; p++)
+        for (int i = 0; i < text.Length; i++)
         {
-            string modified = pal.Remove(p, 1);
+            string modified = text.Remove(i, 1);
             if (IsPalindrome(modified))
             {
-                Console.WriteLine($"Removal of a letter '{pal[p]}', the word becomes a Palindrome.");
+                Console.WriteLine($"By removing '{text[i]}', it becomes a Palindrome: \"{modified}\"");
                 return;
             }
         }
 
-        Console.WriteLine("Any removal of string or number wouldn't make it Palindrome.");
+        Console.WriteLine("Removing any single letter won't make it a Palindrome.");
+    }
+
+    static string CleanText(string input)
+    {
+        return input.ToLower()
+                    .Replace(" ", "")
+                    .Replace(",", "")
+                    .Replace(".", "");
     }
 }

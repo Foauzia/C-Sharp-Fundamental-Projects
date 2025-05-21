@@ -5,9 +5,9 @@ using System.Linq;
 
 namespace StudentProfile
 {
-    internal class Program
+    internal class profile
     {
-        
+
         public string FirstName { get; set; }
         public string FatherName { get; set; }
         public int Age { get; set; }
@@ -22,16 +22,23 @@ namespace StudentProfile
         }
         static void Main(string[] args)
         {
-            Program p = new Program();
-            Console.WriteLine("Enter Your First Name:");
-            string FirstName = Console.ReadLine();
-            Console.WriteLine("Enter Your Father Name ");
-            string FatherName = Console.ReadLine();
-            Console.WriteLine("Enter Your Age");
-            int Age = int.Parse(Console.ReadLine());
-            Console.WriteLine("Enter Your Kin Name");
-            string KinName = Console.ReadLine();
-            p.DisplayProfile();
+            profile  p = new profile();
+            {
+                Console.WriteLine("Enter Your First Name:");
+                string FirstName = Console.ReadLine();
+                Console.WriteLine("Enter Your Father Name ");
+                string FatherName = Console.ReadLine();
+                Console.WriteLine("Enter Your Age");
+                int Age = int.Parse(Console.ReadLine());
+                Console.WriteLine("Enter Your Kin Name");
+                string KinName = Console.ReadLine();
+
+            }
+            ;
+            //p.DisplayProfile();
+            Console.ReadLine();
+            
+           
         }
     }
 }

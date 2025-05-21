@@ -58,6 +58,7 @@ namespace Profile
 
             Program p = new Program(FirstName, LastName, address , email, title , phone );
             p.PrintName();
+            Console.ReadLine();
         }
     }
 }

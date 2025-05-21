@@ -31,6 +31,7 @@ namespace RectangleApplication
             Rectangle r = new Rectangle();
             r.AcceptDetails();
             r.Display();
+            Console.WriteLine($"The Area of Rectangle is " $);
             Console.ReadLine();
 
         }

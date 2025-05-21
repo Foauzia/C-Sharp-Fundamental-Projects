@@ -25,9 +25,6 @@ namespace Triangle
 
 
         }
-
-
-        
     }
         class Executable
         {

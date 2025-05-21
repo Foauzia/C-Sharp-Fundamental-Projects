@@ -27,6 +27,7 @@
             Console.WriteLine(hukm.ToCharArray());
 
             Console.WriteLine("Hello, World!");
+            Console.ReadLine();
         }
     }
 }

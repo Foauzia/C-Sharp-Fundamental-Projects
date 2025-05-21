@@ -24,6 +24,7 @@ namespace StudentInfo
             info.name = "Fozia Abako";
             info.age = 27; 
             info.displayInfo();
+            Console.ReadLine();
         }
     }
 }
