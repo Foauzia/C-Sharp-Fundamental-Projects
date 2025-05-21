@@ -21,9 +21,13 @@ namespace Triangle
             Console.WriteLine("Area {0}", GetArea());
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
         }
+=======
+        }   
+>>>>>>> fce0ebdc9e3296f317b775b8b8205523028c5fea
 =======
         }   
 >>>>>>> fce0ebdc9e3296f317b775b8b8205523028c5fea

@@ -9,6 +9,7 @@ namespace Love
         {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Console.WriteLine("Please enter your paragraph(s) (type END on a new line to finish):");
 
             List<string> paragraphs = new List<string>();
@@ -86,6 +87,8 @@ namespace Love
 =======
 =======
 >>>>>>> fce0ebdc9e3296f317b775b8b8205523028c5fea
+=======
+>>>>>>> fce0ebdc9e3296f317b775b8b8205523028c5fea
             Console.Writeline("Enter Your Name");
             string Fname = Console.ReadLine();
 
@@ -97,6 +100,9 @@ namespace Love
             
             Console.WriteLine("Your Name is {Fname}" +  Your Father Name is {LName}" and + Your Age is "{Age}");
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> fce0ebdc9e3296f317b775b8b8205523028c5fea
+=======
 >>>>>>> fce0ebdc9e3296f317b775b8b8205523028c5fea
 =======
 >>>>>>> fce0ebdc9e3296f317b775b8b8205523028c5fea

@@ -42,8 +42,11 @@ class Program
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         text = CleanText(text);
 =======
+=======
+>>>>>>> fce0ebdc9e3296f317b775b8b8205523028c5fea
 =======
 >>>>>>> fce0ebdc9e3296f317b775b8b8205523028c5fea
     
