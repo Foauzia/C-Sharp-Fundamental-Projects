@@ -19,21 +19,16 @@ namespace Triangle
             Console.WriteLine("Length {0}", Length);
             Console.WriteLine("Width {0}", Width);
             Console.WriteLine("Area {0}", GetArea());
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 
         }
-=======
+
         }   
->>>>>>> fce0ebdc9e3296f317b775b8b8205523028c5fea
-=======
+
         }   
->>>>>>> fce0ebdc9e3296f317b775b8b8205523028c5fea
-=======
+
         }   
->>>>>>> fce0ebdc9e3296f317b775b8b8205523028c5fea
+
     }
         class Executable
         {
